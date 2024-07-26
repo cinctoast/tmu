@@ -57,13 +57,14 @@ a:hover {
 .btn:focus,
 .btn-lt:focus,
 .btn-white:focus {
-    /* outline-offset: 4px;
-    outline: 2px dotted var(--white); */
+    outline-offset: 4px;
+    outline: 2px dotted var(--white);
     text-decoration: none;
     position: relative;
+    border-width: 3px;
 }
 
-.btn:focus:before,
+/* .btn:focus:before,
 .btn-lt:focus:before,
 .btn-white:focus:before {
     content: "";
@@ -85,12 +86,27 @@ a:hover {
     bottom: -10px;
     border: var(--white) 2px dotted;
     position: absolute;
-}
+} */
 
 .btn:hover,
 .btn-lt:hover,
 .btn-white:hover {
     text-decoration: none;
+    outline: 3px solid;
+    cursor: pointer;
+}
+
+.btn:hover {
+    outline-color: var(--green);
+}
+
+.btn-lt:hover {
+    outline-color: var(--dark-blue);
+
+}
+
+.btn-white:hover {
+    outline-color: var(--white);
 }
 
 .btn-lt {
