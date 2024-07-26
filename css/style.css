@@ -1,0 +1,118 @@
+body {
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline-offset: 2px;
+    outline: 2px dotted var(--gradient-blue);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-wrapper .header-logo img { 
+    height: auto;
+    width: 163px;
+}
+
+/* colours & font weight */
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FEDC00;
+    --green: #6CBFAE;
+    --light-blue: #084E99;
+    --blue: #23356E;
+    --dark-blue: #071A31;
+    --gradient-blue: linear-gradient(170deg, rgba(7,26,49,1) 15%, rgba(25,37,74,1) 80%);
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+}
+
+/* buttons */
+.btn {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid var(--green);
+    color: var(--white);
+    display: flex;
+    font-size: 18px;
+    padding: 11px 22px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn:focus,
+.btn-lt:focus,
+.btn-white:focus {
+    /* outline-offset: 4px;
+    outline: 2px dotted var(--white); */
+    text-decoration: none;
+    position: relative;
+}
+
+.btn:focus:before,
+.btn-lt:focus:before,
+.btn-white:focus:before {
+    content: "";
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border: var(--black) 2px dotted;
+    position: absolute;
+}
+
+.btn:focus::after,
+.btn-lt:focus::after,
+.btn-white:focus::after {
+    content: "";
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: var(--white) 2px dotted;
+    position: absolute;
+}
+
+.btn:hover,
+.btn-lt:hover,
+.btn-white:hover {
+    text-decoration: none;
+}
+
+.btn-lt {
+    background-color: var(--white);
+    border-radius: 25px;
+    border: 1px solid var(--dark-blue);
+    color: var(--blue);
+    display: flex;
+    font-size: 18px;
+    padding: 10px 22px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn-white {
+    background-color: var(--white);
+    border-radius: 25px;
+    border: 1px solid var(--white);
+    color: var(--blue);
+    display: flex;
+    font-size: 18px;
+    padding: 10px 22px;
+    width: fit-content;
+    height: fit-content;
+}
