@@ -3,6 +3,21 @@
     position: relative;
 }
 
+.hp-testimonial-wrapper::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='386.678' height='281.423' viewBox='0 0 386.678 281.423'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_706' data-name='Rectangle 706' width='386.678' height='281.423' fill='%2323356e'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Group_625' data-name='Group 625' transform='translate(685.076 -1363)'%3E%3Cg id='Group_585' data-name='Group 585' transform='translate(-685.076 1363)' opacity='0.03' style='isolation: isolate'%3E%3Cg id='Group_577' data-name='Group 577' transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath id='Path_629' data-name='Path 629' d='M38.172,274.874,156.525,156.523a22.36,22.36,0,0,0,0-31.622L38.172,6.549A22.36,22.36,0,0,0,6.55,38.171L93.277,124.9a22.36,22.36,0,0,1,0,31.622L6.549,243.252a22.361,22.361,0,0,0,0,31.621h0a22.36,22.36,0,0,0,31.624,0' transform='translate(0 0)' fill='%2323356e'/%3E%3Cpath id='Path_630' data-name='Path 630' d='M386.719,274.873h0a22.36,22.36,0,0,0,31.624,0L536.7,156.523a22.36,22.36,0,0,0,0-31.622L418.342,6.55A22.36,22.36,0,0,0,386.72,38.172L473.447,124.9a22.361,22.361,0,0,1,0,31.622l-86.727,86.73a22.36,22.36,0,0,0,0,31.621' transform='translate(-267.478 -0.001)' fill='%2323356e'/%3E%3Cpath id='Path_631' data-name='Path 631' d='M760.881,274.873h0a22.36,22.36,0,0,0,31.624,0L910.858,156.523a22.36,22.36,0,0,0,0-31.622L792.5,6.55a22.36,22.36,0,0,0-31.622,31.622L847.61,124.9a22.36,22.36,0,0,1,0,31.622l-86.728,86.73a22.36,22.36,0,0,0,0,31.621' transform='translate(-530.729 -0.001)' fill='%2323356e'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    height: 100%;
+    right: -30px;
+    position: absolute;
+    top: -263px;
+    z-index: -1;
+    overflow: hidden;
+    width: 60%;
+}
+
+.hp-testimonial-wrapper .hp-slider-mobile .hp-slider-item-mobile {
+    display: none;
+}
+
 .hp-testimonial-wrapper .hp-slider-mobile .hp-slider-item-mobile img{
     border-radius: 30px;
     height: 342px;
