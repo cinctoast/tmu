@@ -284,4 +284,28 @@
 
 @media (min-width: 1441px) {
 
+    .footer-wrapper .footer-top-content {
+        padding-top: 55px;
+    }
+
+    .footer-wrapper .footer-top-content::after {
+        width: calc(100% - 180px);
+        margin: 0 70px 0 0;
+    }
+
+    .footer-wrapper .footer-top-content .footer-primary-menu { 
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: 20px;
+        margin-left: 93px;
+    }
+    
+    .footer-wrapper .footer-top-content .footer-primary-menu .primary-menu-item { 
+        padding: 0 20px;
+    }
+    
+    .footer-wrapper .footer-top-content .footer-secondary-menu { 
+        margin: 0 50px 60px 0;
+    }
 }
