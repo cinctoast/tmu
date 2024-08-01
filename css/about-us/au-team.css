@@ -313,30 +313,27 @@
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-text { 
         font-size: 16px;
         line-height: 26px;
-        padding: 0 60px 40px 40px;
+        padding: 0 40px 40px 40px;
         height: 160px;
-        overflow: scroll;
+        overflow: auto;
         position: relative;
+        margin-right: 22px;
     }
 
-    ::-webkit-scrollbar {
-        width: 10px;
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-text::-webkit-scrollbar {
+        width: 15px;
     }
 
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey;
-        border-radius: 10px;
-        margin-top: 10px;
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-text::-webkit-scrollbar-track {
+        border-radius: 100px;
         margin-bottom: 40px;
+        margin-right: 22px;
+        background: var(--light-green);
     }
        
-    ::-webkit-scrollbar-thumb {
-    background: red; 
-    border-radius: 10px;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-text::-webkit-scrollbar-thumb {
+        background: var(--blue);
+        border-radius: 100px;
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-full { 
@@ -346,4 +343,75 @@
 
 @media (min-width: 1441px) {
     
+    .au-team-wrapper::before {
+        right: 30px;
+        top: -180px;
+        position: absolute;
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='639.794' height='465.64' viewBox='0 0 639.794 465.64'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Rectangle_706' data-name='Rectangle 706' width='639.794' height='465.64' fill='%2323356e'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Group_587' data-name='Group 587' transform='translate(301.556 -387)'%3E%3Cg id='Group_586' data-name='Group 586' transform='translate(-301.556 387)' opacity='0.03' style='isolation: isolate'%3E%3Cg id='Group_577' data-name='Group 577' transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath id='Path_629' data-name='Path 629' d='M63.159,454.8,258.985,258.98a37,37,0,0,0,0-52.322L63.159,10.836A37,37,0,0,0,10.837,63.158l143.5,143.5a37,37,0,0,1,0,52.321l-143.5,143.5a37,37,0,0,0,0,52.319h0a37,37,0,0,0,52.324,0' transform='translate(0 -0.001)' fill='%2323356e'/%3E%3Cpath id='Path_630' data-name='Path 630' d='M391,454.8h0a37,37,0,0,0,52.324,0L639.156,258.981a37,37,0,0,0,0-52.322L443.329,10.837a37,37,0,0,0-52.322,52.322l143.5,143.5a37,37,0,0,1,0,52.321l-143.5,143.5a37,37,0,0,0,0,52.319' transform='translate(-193.711 -0.001)' fill='%2323356e'/%3E%3Cpath id='Path_631' data-name='Path 631' d='M765.167,454.8h0a37,37,0,0,0,52.324,0l195.826-195.824a37,37,0,0,0,0-52.322L817.491,10.837a37,37,0,0,0-52.322,52.322l143.5,143.5a37,37,0,0,1,0,52.321l-143.5,143.5a37,37,0,0,0,0,52.319' transform='translate(-384.36 -0.001)' fill='%2323356e'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+    
+    .au-team-wrapper::after {
+        height: calc(100% - 395px);
+        margin-top: 245px;
+    }
+    
+    .au-team-wrapper .au-team-title { 
+        font-size: 49px;
+        line-height: 62px;
+        margin: 0 75px 40px 75px;
+    }
+    
+    .au-team-wrapper .au-team-members { 
+        grid-column-gap: 0;
+        grid-row-gap: 60px;
+    }
+    
+    .au-team-wrapper .au-team-members .au-team-member { 
+        margin: 0;
+        position: relative;
+    }
+
+    .au-team-wrapper .au-team-members .au-team-member::after { 
+        height: 50px;
+        margin-top: -49px;
+    }
+
+    .au-team-wrapper .au-team-members .au-team-member:nth-child(odd) { 
+        margin: 0 30px 0 75px;
+    }
+
+    .au-team-wrapper .au-team-members .au-team-member:nth-child(even) { 
+        margin: 0 75px 0 30px;
+    }
+
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-img { 
+        height: 527px;
+    }
+    
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone-contacts {
+        margin-top: -43px;
+        margin-left: 10px;
+    }
+    
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-name { 
+        padding: 10px 70px 15px 50px;
+    }
+    
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-position { 
+        padding: 0 70px 30px 50px;
+    }
+    
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-text { 
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 40px 50px 50px;
+        height: 170px;
+        overflow: auto;
+        position: relative;
+        margin-right: 30px;
+    }
+
+    .au-team-wrapper .au-team-members .au-team-member .au-team-member-text::-webkit-scrollbar-track {
+        margin-bottom: 50px;
+    }
 }
