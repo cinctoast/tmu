@@ -2,6 +2,13 @@
 function currentDiv(j) {
     showDivsLaptop(slideIndexLaptop = j);
 }
+
+var thumbnail1 = document.getElementById("thumbnail-1");
+var thumbnail2 = document.getElementById("thumbnail-2");
+var thumbnail3 = document.getElementById("thumbnail-3");
+
+thumbnail1.style.display = "none";
+
 function showDivsLaptop(j) {
     var i;
     var laptopItems = document.getElementsByClassName("hp-slider-item-laptop");
@@ -16,6 +23,24 @@ function showDivsLaptop(j) {
 
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+
+        if (slideIndexLaptop == 1) { 
+            thumbnail1.style.display = "none";
+            thumbnail2.style.display = "block";
+            thumbnail3.style.display = "block";
+        }
+
+        if (slideIndexLaptop == 2) { 
+            thumbnail2.style.display = "none";
+            thumbnail3.style.display = "block";
+            thumbnail1.style.display = "block";
+        }
+
+        if (slideIndexLaptop == 3) { 
+            thumbnail3.style.display = "none";
+            thumbnail1.style.display = "block";
+            thumbnail2.style.display = "block";
+        }
     }
 
     laptopItems[slideIndexLaptop-1].style.display = "flex";
@@ -23,36 +48,36 @@ function showDivsLaptop(j) {
 }        
 
 // mobile testimonial slider script
-var slideIndex = 1;
-showDivs(slideIndex);
+// var slideIndex = 1;
+// showDivs(slideIndex);
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
+// function plusDivs(n) {
+//     showDivs(slideIndex += n);
+// }
 
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("hp-slider-item-mobile");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    x[slideIndex-1].style.display = "block";  
-}
+// function showDivs(n) {
+//     var i;
+//     var x = document.getElementsByClassName("hp-slider-item-mobile");
+//     if (n > x.length) {slideIndex = 1}
+//     if (n < 1) {slideIndex = x.length}
+//     for (i = 0; i < x.length; i++) {
+//         x[i].style.display = "none";
+//     }
+//     x[slideIndex-1].style.display = "block";  
+// }
 
-// keyboard accessibility
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'ArrowLeft') {
-        plusDivs(-1); // previous slide
-    } else if (event.key === 'ArrowRight') {
-        plusDivs(1); // next slide
-    }
-});
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'ArrowLeft') {
-        showDivsLaptop(slideIndexLaptop - 1); // previous slide
-    } else if (event.key === 'ArrowRight') {
-        showDivsLaptop(slideIndexLaptop + 1); // next slide
-    }
-});
+// // keyboard accessibility
+// document.addEventListener('keydown', function(event) {
+//     if (event.key === 'ArrowLeft') {
+//         plusDivs(-1); // previous slide
+//     } else if (event.key === 'ArrowRight') {
+//         plusDivs(1); // next slide
+//     }
+// });
+// document.addEventListener('keydown', function(event) {
+//     if (event.key === 'ArrowLeft') {
+//         showDivsLaptop(slideIndexLaptop - 1); // previous slide
+//     } else if (event.key === 'ArrowRight') {
+//         showDivsLaptop(slideIndexLaptop + 1); // next slide
+//     }
+// });

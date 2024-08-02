@@ -59,6 +59,10 @@ strong {
     padding: 11px 22px;
     width: fit-content;
     height: fit-content;
+    outline: 3px solid;
+    outline-color: transparent;
+    outline-offset: -3px;
+    transition: outline-color 0.3s;
 }
 
 .btn-lt {
@@ -71,6 +75,10 @@ strong {
     padding: 10px 22px;
     width: fit-content;
     height: fit-content;
+    outline: 3px solid;
+    outline-color: transparent;
+    transition: outline-color 0.3s;
+    outline-offset: -3px;
 }
 
 .btn-white {
@@ -83,6 +91,10 @@ strong {
     padding: 10px 22px;
     width: fit-content;
     height: fit-content;
+    outline: 3px solid;
+    outline-color: transparent;
+    transition: outline-color 0.3s;
+    outline-offset: -3px;
 }
 
 .btn:hover,
@@ -93,9 +105,8 @@ strong {
 .btn-white:focus {
     position: relative;
     text-decoration: none;
-    outline: 3px solid;
     cursor: pointer;
-    outline-offset: 0;
+    outline-offset: -3px;
 }
 
 .btn:hover,

@@ -5,7 +5,7 @@
 .hp-featured-resources-wrapper { 
     background-color: var(--blue);
     border-radius: 50px 0 50px 50px;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
 }
 
 .hp-featured-resources-wrapper .hp-resources-featured-text { 
@@ -13,18 +13,23 @@
     border-radius: 50px 50px 0 50px;
     color: var(--dark-blue);
     font-size: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: -60px;
     padding: 40px 50px;
     text-align: center;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.09);
+
+    b {
+        color: var(--blue);
+    }
 }
 
 .hp-featured-resources-wrapper .hp-resources-header .hp-resources-header-text { 
     color: var(--white);
     font-size: 25px;
-    margin-bottom: 22px;
+    margin-bottom: 40px;
     text-align: center;
+    font-weight: var(--semibold);
 }
 
 .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card { 
@@ -33,12 +38,12 @@
     height: 100%;
     display: block;
     overflow: hidden;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card:hover .hp-resource-card-image,
 .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card:focus .hp-resource-card-image {
-    transform: scale(1.1);
+    top: -20px;
 }
 
 .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card:hover .hp-resource-card-title,
@@ -61,8 +66,9 @@
     height: 200px;
     object-fit: cover;
     width: 100%;
-    transform: scale(1.0);
-    transition: transform 0.3s ease-in-out;
+    transition: top 0.3s ease-in-out;
+    position: relative;
+    top: 0px;
 }
 
 .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-content {
@@ -124,22 +130,23 @@
     .hp-featured-resources-wrapper .hp-resources-featured-text { 
         font-size: 30px;
         line-height: 44px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         margin-left: 20px;
         margin-right: -150px;
         margin-top: -180px;
-        padding: 35px 90px 70px 60px;
+        padding: 40px;
         text-align: left;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resources-header-text { 
         font-size: 34px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         text-align: left;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card { 
         border-radius: 30px;
+        margin-bottom: 50px;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-image { 
@@ -172,7 +179,7 @@
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resources-header-buttons .hp-resources-link-first { 
-        margin: 60px 0 25px 0;
+        margin: 0 0 25px 0;
     }
 }
 
@@ -195,10 +202,10 @@
         font-size: 30px;
         line-height: 44px;
         margin-bottom: 40px;
-        margin-left: 40%;
+        margin-left: 29%;
         margin-right: -75px;
         margin-top: -200px;
-        padding: 50px 130px 50px 95px;
+        padding: 50px;
         text-align: left;
     }
 
@@ -224,6 +231,7 @@
         font-size: 34px;
         margin-bottom: 0;
         text-align: left;
+        width: 200px;
     }
 
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-cards { 
@@ -234,6 +242,7 @@
 
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card { 
         border-radius: 30px;
+        margin-bottom: 0;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-image { 
@@ -292,11 +301,11 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
     .hp-featured-resources-wrapper .hp-resources-header .hp-resources-header-laptop .hp-resources-link-first-laptop {
-        margin-right: 55px;
+        margin-right: 30px;
     }
 
     .hp-featured-resources-wrapper .hp-resources-header .hp-resources-header-laptop .hp-resources-header-buttons-laptop {
@@ -310,21 +319,21 @@
     }
 
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-cards { 
-        grid-column-gap: 60px;
+        grid-column-gap: 40px;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-image { 
-        height: 260px;
+        height: 225px;
     }
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-content {
         padding: 40px;
     }
     
-    .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-taxonomy { 
+    /* .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-taxonomy { 
         font-size: 25px;
         margin-bottom: 20px;
-    }
+    } */
     
     .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-title { 
         font-size: 26px;
@@ -332,7 +341,7 @@
         line-height: 36px;
     }
     
-    .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-date { 
+    /* .hp-featured-resources-wrapper .hp-resources-header .hp-resource-card .hp-resource-card-date { 
         font-size: 25px;
-    }
+    } */
 }

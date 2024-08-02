@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/homepage/hp-featured-text.css">
     <link rel="stylesheet" href="css/homepage/hp-testimonial.css">
     <link rel="stylesheet" href="css/footer.css">
+
+    <!-- flickity -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
      
     <title>Lincoln Alexander Law</title>
 </head>
@@ -108,7 +111,7 @@
 
     <!-- featured resources -->
     <div class="hp-featured-resources-wrapper">
-        <div class="hp-resources-featured-text">Empowering professionals with practical legal knowledge to drive success.</div>
+        <div class="hp-resources-featured-text"><b>Empowering</b> professionals with practical legal knowledge to <b>success</b>.</div>
         
         <div class="hp-resources-header">
 
@@ -123,7 +126,7 @@
 
             <div class="hp-resource-cards">
                 <a href="#" class="hp-resource-card">
-                    <img class="hp-resource-card-image" src="media/hp-hero-bg.jpg" alt="Featured Image">
+                    <img class="hp-resource-card-image" src="media/web-img-1.jpg" alt="Featured Image">
                     
                     <div class="hp-resource-card-content">
                         <div class="hp-resource-card-taxonomy">Certificate</div>
@@ -133,7 +136,7 @@
                 </a>
     
                 <a href="#" class="hp-resource-card">
-                    <img class="hp-resource-card-image" src="media/hp-hero-bg.jpg" alt="Featured Image">
+                    <img class="hp-resource-card-image" src="media/web-img-2.jpg" alt="Featured Image">
                     
                     <div class="hp-resource-card-content">
                         <div class="hp-resource-card-taxonomy">Certificate</div>
@@ -143,7 +146,7 @@
                 </a>
     
                 <a href="#" class="hp-resource-card">
-                    <img class="hp-resource-card-image" src="media/hp-hero-bg.jpg" alt="Featured Image">
+                    <img class="hp-resource-card-image" src="media/web-img-3.jpg" alt="Featured Image">
                     
                     <div class="hp-resource-card-content">
                         <div class="hp-resource-card-taxonomy">Certificate</div>
@@ -178,15 +181,15 @@
     <!-- testimonial slider -->
     <div class="hp-testimonial-wrapper">
         <!-- Mobile/Tablet -->
-        <div class="hp-slider-mobile">
+        <!-- <div class="hp-slider-mobile">
             <div class="hp-slider-item-mobile">
                 <img src="media/featured-photo-1.jpg">
                 <div class="content">
                     <div class="hp-testimonial-text">
-                        i have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration.
+                        I have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration. The knowledge acquired can be immediately applied to my work with clients. This program was well-designed and thoughtfully executed. I appreciated learning from various experienced professionals. Thank you for this excellent and necessary program.
                     </div>
                     <div class="hp-testimonial-author">
-                        neil gaiman, creative writing specialist, pwc
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
                     </div>
                 </div>
             </div>
@@ -195,10 +198,10 @@
                 <img src="media/featured-photo-2.jpg">
                 <div class="content">
                     <div class="hp-testimonial-text">
-                        i have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration. the knowledge acquired can be immediately applied to my work with clients. this program was well-designed and thoughtfully executed. i appreciated learning from various experienced professionals. thank you for this excellent and necessary program.
+                        I have gained valuable insights.
                     </div>
                     <div class="hp-testimonial-author">
-                        christabel thomas, cybersecurity and privacy specialist, pwc
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
                     </div>
                 </div>
             </div>
@@ -207,10 +210,10 @@
                 <img src="media/featured-photo-3.jpg">
                 <div class="content">
                     <div class="hp-testimonial-text">
-                        i have gained valuable insights into the integration of functions like legal with cybersecurity.
+                        I have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration.
                     </div>
                     <div class="hp-testimonial-author">
-                        lorem ipsum, cybersecurity and privacy specialist, pwc
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
                     </div>
                 </div>
             </div>
@@ -219,6 +222,44 @@
         <div class="hp-slider-buttons">
             <button class="hp-slider-btn hp-slider-prev" onclick="plusDivs(-1)"></button>
             <button class="hp-slider-btn hp-slider-next" onclick="plusDivs(1)"></button>
+        </div> -->
+
+        <div class="hp-slider-mobile main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="hp-slider-item-mobile carousel-cell">
+                <img src="media/featured-photo-1.jpg">
+                <div class="content">
+                    <div class="hp-testimonial-text">
+                        I have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration. The knowledge acquired can be immediately applied to my work with clients. This program was well-designed and thoughtfully executed. I appreciated learning from various experienced professionals. Thank you for this excellent and necessary program.
+                    </div>
+                    <div class="hp-testimonial-author">
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hp-slider-item-mobile carousel-cell">
+                <img src="media/featured-photo-2.jpg">
+                <div class="content">
+                    <div class="hp-testimonial-text">
+                        I have gained valuable insights.
+                    </div>
+                    <div class="hp-testimonial-author">
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
+                    </div>
+                </div>
+            </div>
+        
+            <div class="hp-slider-item-mobile carousel-cell">
+                <img src="media/featured-photo-3.jpg">
+                <div class="content">
+                    <div class="hp-testimonial-text">
+                        I have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration.
+                    </div>
+                    <div class="hp-testimonial-author">
+                        Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
+                    </div>
+                </div>
+            </div>
         </div>
         
         <!-- Laptop/Desktop -->
@@ -228,7 +269,7 @@
 
                 <div class="content">
                     <div class="hp-testimonial-text">
-                        I have gained valuable insights into the integration of functions like legal with cybersecurity, highlighting the critical importance of this collaboration. The knowledge acquired can be immediately applied to my work with clients. This program was well-designed and thoughtfully executed. I appreciated learning from various experienced professionals. Thank you for this excellent and necessary program.
+                        I have gained valuable insights into the integration of functions like legal with cybersecurity.
                     </div>
                     <div class="hp-testimonial-author">
                         Christabel Thomas, Cybersecurity and Privacy Specialist, PwC
@@ -263,13 +304,13 @@
             </div>
           
             <div class="thumbnails">
-              <div class="thumbnail" tabindex="0">
+              <div id="thumbnail-1" class="thumbnail" tabindex="0">
                 <img class="thumbnail-img" src="media/featured-photo-1.jpg" style="cursor:pointer" onclick="currentDiv(1)">
               </div>
-              <div class="thumbnail" tabindex="0">
+              <div id="thumbnail-2" class="thumbnail" tabindex="0">
                 <img class="thumbnail-img" src="media/featured-photo-2.jpg" style="cursor:pointer" onclick="currentDiv(2)">
               </div>
-              <div class="thumbnail" tabindex="0">
+              <div id="thumbnail-3" class="thumbnail" tabindex="0">
                 <img class="thumbnail-img" src="media/featured-photo-3.jpg" style="cursor:pointer" onclick="currentDiv(3)">
               </div>
             </div>
@@ -331,5 +372,9 @@
 
     <!-- testimonial slider script -->
     <script src="js/hp-slider.js"></script>
+
+    <!-- flickity -->
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </body>
 </html>
