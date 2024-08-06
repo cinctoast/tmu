@@ -109,6 +109,13 @@ strong {
     outline-offset: -3px;
 }
 
+.btn:focus,
+.btn-lt:focus,
+.btn-white:focus {
+    outline: 4px dotted var(--black);
+    outline-offset: 5px;
+}
+
 .btn:hover,
 .btn:focus {
     outline-color: var(--green);
