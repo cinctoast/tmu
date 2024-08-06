@@ -18,7 +18,7 @@ a:hover {
 }
 
 strong {
-    color: var(--green);
+    color: #CBE9E3;
     font-weight: var(--bold);
 }
 
@@ -62,7 +62,7 @@ strong {
     outline: 3px solid;
     outline-color: transparent;
     outline-offset: -3px;
-    transition: outline-color 0.3s;
+    transition: all 0.3s;
 }
 
 .btn-lt {
@@ -77,7 +77,7 @@ strong {
     height: fit-content;
     outline: 3px solid;
     outline-color: transparent;
-    transition: outline-color 0.3s;
+    transition: all 0.3s;
     outline-offset: -3px;
 }
 
@@ -93,7 +93,7 @@ strong {
     height: fit-content;
     outline: 3px solid;
     outline-color: transparent;
-    transition: outline-color 0.3s;
+    transition: all 0.3s;
     outline-offset: -3px;
 }
 
