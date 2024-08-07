@@ -111,7 +111,7 @@
     }
     
     .au-hero-wrapper .au-hero-main .au-hero-title { 
-        padding: 100px 140px 130px 100px;
+        padding: 100px 140px 130px 150px;
         font-size: 46px;
         line-height: 60px;
     }
@@ -156,7 +156,7 @@
     }
     
     .au-hero-wrapper .au-hero-main .au-hero-title { 
-        padding: 140px 150px;
+        padding: 140px 180px;
         font-size: 54px;
         line-height: 65px;
     }

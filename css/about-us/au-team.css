@@ -290,7 +290,7 @@
     .au-team-wrapper .au-team-title { 
         font-size: 34px;
         line-height: 40px;
-        margin: 0 60px 40px 60px;
+        margin: 0 75px 40px 75px;
     }
     
     .au-team-wrapper .au-team-members { 
@@ -317,11 +317,11 @@
     }
 
     .au-team-wrapper .au-team-members .au-team-member:nth-child(odd) { 
-        margin: 0 20px 0 60px;
+        margin: 0 20px 0 75px;
     }
 
     .au-team-wrapper .au-team-members .au-team-member:nth-child(even) { 
-        margin: 0 60px 0 20px;
+        margin: 0 75px 0 20px;
     }
 
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-img { 
@@ -377,6 +377,10 @@
 }
 
 @media (min-width: 1441px) {
+
+    .au-team-wrapper {
+        margin: 85px 100px;
+    }
     
     .au-team-wrapper::before {
         left: -270px;
@@ -393,7 +397,7 @@
     .au-team-wrapper .au-team-title { 
         font-size: 49px;
         line-height: 62px;
-        margin: 0 75px 40px 75px;
+        margin: 0 85px 40px 85px;
     }
     
     .au-team-wrapper .au-team-members { 
@@ -412,11 +416,11 @@
     }
 
     .au-team-wrapper .au-team-members .au-team-member:nth-child(odd) { 
-        margin: 0 30px 0 75px;
+        margin: 0 30px 0 85px;
     }
 
     .au-team-wrapper .au-team-members .au-team-member:nth-child(even) { 
-        margin: 0 75px 0 30px;
+        margin: 0 85px 0 30px;
     }
 
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-img { 
