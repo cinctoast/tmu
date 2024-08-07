@@ -108,7 +108,8 @@
     padding-bottom: 30px;
 }
 
-.au-course-title-laptop {
+.au-course-title-laptop,
+.au-course-title-hover {
     display: none;
 }
 
@@ -244,6 +245,7 @@
         top: 0;
         margin-top: 0;
         position: absolute;
+        z-index: -1;
     }
     
     .au-courses-wrapper .au-courses-title { 
@@ -253,8 +255,10 @@
     }
     
     .au-courses-wrapper .au-courses { 
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 0px;
     }
     
     .au-courses-wrapper .au-courses .au-course { 
@@ -262,8 +266,9 @@
         margin-bottom: 0;
         display: flex;
         flex-direction: column;
-        width: calc(50% - 20px);
+        width: 100%;
         height: fit-content;
+        position: relative;
     }
     
     .au-courses-wrapper .au-courses .au-course .au-course-img { 
@@ -299,17 +304,19 @@
     
     .au-courses-wrapper .au-courses .au-course .au-course-module {
         background-color: var(--blue);
-        border-radius: 0 0 30px 30px;
+        border-radius: 30px;
         display: flex;
         flex-direction: column;
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-        margin-top: -445px;
-        min-height: 365px;
+        margin-top: 0;
+        min-height: fit-content;
         opacity: 0;
         padding: 40px;
         z-index: 2;
+        position: absolute;
+        height: -webkit-fill-available;
     }
     
     .au-courses-wrapper .au-courses .au-course .course-active {
@@ -317,6 +324,15 @@
         opacity: 1;
         transform: translateY(0);
         transition: all 0.3s;
+    }
+
+    .au-courses-wrapper .au-courses .au-course .au-course-title-hover { 
+        font-size: 30px;
+        font-weight: var(--bold);
+        line-height: 34px;
+        padding: 0 0 40px 0;
+        text-decoration: none;
+        display: block;
     }
     
     .au-courses-wrapper .au-courses .au-course .au-course-text { 
@@ -344,14 +360,6 @@
         line-height: 62px;
     }
     
-    .au-courses-wrapper .au-courses .au-course { 
-        width: calc(50% - 30px);
-    }
-    
-    .au-courses-wrapper .au-courses .au-course .au-course-img { 
-        height: 495px;
-    }
-    
     .au-courses-wrapper .au-courses .au-course .au-course-title-laptop {
         font-size: 36px;
         line-height: 44px;
@@ -359,9 +367,13 @@
     }
     
     .au-courses-wrapper .au-courses .au-course .au-course-module {
-        margin-top: -496px;
-        min-height: 396px;
         padding: 50px;
+    }
+
+    .au-courses-wrapper .au-courses .au-course .au-course-title-hover { 
+        font-size: 36px;
+        line-height: 44px;
+        padding: 0 0 50px 0;
     }
     
     .au-courses-wrapper .au-courses .au-course .au-course-text { 

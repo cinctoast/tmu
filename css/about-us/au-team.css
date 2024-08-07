@@ -185,7 +185,7 @@
         font-size: 34px;
         font-weight: var(--semibold);
         line-height: 41px;
-        margin: 0 48px 30px 48px;
+        margin: 0 75px 30px 75px;
     }
     
     .au-team-wrapper .au-team-members { 
@@ -198,7 +198,7 @@
     
     .au-team-wrapper .au-team-members .au-team-member { 
         border-radius: 30px;
-        margin: 0 48px;
+        margin: 0 75px;
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-img { 
@@ -259,7 +259,7 @@
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-text { 
         font-size: 16px;
         line-height: 26px;
-        padding: 0 40px 10px 40px;
+        padding: 0 40px 15px 40px;
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-full { 
