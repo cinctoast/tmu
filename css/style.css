@@ -18,7 +18,7 @@ a:hover {
 }
 
 strong {
-    color: #CBE9E3;
+    color: var(--mint);
     font-weight: var(--bold);
 }
 
@@ -33,6 +33,7 @@ strong {
     --black: #000000;
     --yellow: #FEDC00;
     --light-green: rgba(108, 191, 174, 0.2);
+    --mint: #CBE9E3;
     --green: #6CBFAE;
     --pale-blue: rgba(35, 53, 110, 0.05);
     --light-blue: #084E99;
