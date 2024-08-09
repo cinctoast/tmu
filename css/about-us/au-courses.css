@@ -56,8 +56,8 @@
     justify-content: space-between;
 }
 
-.au-courses-wrapper .au-courses .au-course .au-course-title::after { 
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='29.25' height='29.25' viewBox='0 0 29.25 29.25'%3E%3Cpath id='Icon_ionic-ios-arrow-dropdown-circle' data-name='Icon ionic-ios-arrow-dropdown-circle' d='M3.375,18A14.625,14.625,0,1,0,18,3.375,14.623,14.623,0,0,0,3.375,18ZM23.7,14.948a1.362,1.362,0,0,1,1.92,0,1.341,1.341,0,0,1,.394.956,1.364,1.364,0,0,1-.4.963l-6.63,6.609a1.355,1.355,0,0,1-1.87-.042l-6.729-6.708a1.357,1.357,0,0,1,1.92-1.92l5.7,5.759Z' transform='translate(-3.375 -3.375)' fill='%23cbe9e3'/%3E%3C/svg%3E%0A");
+.au-courses-wrapper .au-courses .au-course .au-course-title::after {
+    content: url("/tmu/svgs/dropdown-close.svg");
     padding-left: 30px;
     top: 3px;
     position: relative;
@@ -76,7 +76,8 @@
 }
 
 .au-courses-wrapper .au-courses .au-course .course-title-active::after {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='29.25' height='29.25' viewBox='0 0 29.25 29.25'%3E%3Cpath id='Icon_ionic-ios-arrow-dropdown-circle' data-name='Icon ionic-ios-arrow-dropdown-circle' d='M3.375,18A14.625,14.625,0,1,1,18,32.625,14.623,14.623,0,0,1,3.375,18ZM23.7,21.052a1.362,1.362,0,0,0,1.92,0,1.341,1.341,0,0,0,.394-.956,1.364,1.364,0,0,0-.4-.963l-6.63-6.609a1.355,1.355,0,0,0-1.87.042l-6.729,6.708a1.357,1.357,0,0,0,1.92,1.92l5.7-5.759Z' transform='translate(-3.375 -3.375)' fill='%23cbe9e3'/%3E%3C/svg%3E%0A");
+    content: url("/tmu/svgs/dropdown-open.svg");
+    /* transform: rotate(180deg); */
     
     @media (min-width: 1100px) {
         content: none;
@@ -116,7 +117,7 @@
 .au-courses-wrapper .au-courses .au-course .au-course-button::after {
     padding-left: 20px;
     transition: padding-left 0.3s;
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.354' height='10.908' viewBox='0 0 16.354 10.908'%3E%3Cpath id='Icon_ionic-ios-arrow-round-forward' data-name='Icon ionic-ios-arrow-round-forward' d='M18.3,11.461a.742.742,0,0,0-.006,1.045l3.454,3.459H8.608a.739.739,0,0,0,0,1.477H21.747L18.293,20.9a.748.748,0,0,0,.006,1.045.735.735,0,0,0,1.04-.006l4.681-4.715h0a.829.829,0,0,0,.153-.233.7.7,0,0,0,.057-.284.74.74,0,0,0-.21-.517l-4.681-4.715A.724.724,0,0,0,18.3,11.461Z' transform='translate(-7.875 -11.252)' fill='%23071a31'/%3E%3C/svg%3E%0A");
+    content: url("/tmu/svgs/arrow.svg");
 }
 
 .au-courses-wrapper .au-courses .au-course .au-course-button:hover,
@@ -130,7 +131,7 @@
 .au-courses-wrapper .au-courses .au-course .au-course-button:hover::after,
 .au-courses-wrapper .au-courses .au-course .au-course-button:focus::after {
     padding-left: 30px;
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16.354' height='10.908' viewBox='0 0 16.354 10.908'%3E%3Cpath id='Icon_ionic-ios-arrow-round-forward' data-name='Icon ionic-ios-arrow-round-forward' d='M18.3,11.461a.742.742,0,0,0-.006,1.045l3.454,3.459H8.608a.739.739,0,0,0,0,1.477H21.747L18.293,20.9a.748.748,0,0,0,.006,1.045.735.735,0,0,0,1.04-.006l4.681-4.715h0a.829.829,0,0,0,.153-.233.7.7,0,0,0,.057-.284.74.74,0,0,0-.21-.517l-4.681-4.715A.724.724,0,0,0,18.3,11.461Z' transform='translate(-7.875 -11.252)' fill='%23fff'/%3E%3C/svg%3E%0A");
+    content: url("/tmu/svgs/arrow-white.svg");
 }
 
 /* Media Queries */
@@ -188,14 +189,6 @@
         transform: translateY(0);
         transition: all 0.3s;
         text-decoration: none;
-    }
-    
-    .au-courses-wrapper .au-courses .au-course .course-title-active::after {
-        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='29.25' height='29.25' viewBox='0 0 29.25 29.25'%3E%3Cpath id='Icon_ionic-ios-arrow-dropdown-circle' data-name='Icon ionic-ios-arrow-dropdown-circle' d='M3.375,18A14.625,14.625,0,1,1,18,32.625,14.623,14.623,0,0,1,3.375,18ZM23.7,21.052a1.362,1.362,0,0,0,1.92,0,1.341,1.341,0,0,0,.394-.956,1.364,1.364,0,0,0-.4-.963l-6.63-6.609a1.355,1.355,0,0,0-1.87.042l-6.729,6.708a1.357,1.357,0,0,0,1.92,1.92l5.7-5.759Z' transform='translate(-3.375 -3.375)' fill='%23cbe9e3'/%3E%3C/svg%3E%0A");
-        
-        @media (min-width: 1100px) {
-            content: none;
-        }
     }
     
     .au-courses-wrapper .au-courses .au-course .au-course-module {
