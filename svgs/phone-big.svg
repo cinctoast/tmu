@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121.01" height="102.64" viewBox="0 0 73.582 62.413">
+  <g id="Group_596" data-name="Group 596" transform="translate(73.582 62.413) rotate(-180)">
+    <g id="Group_622" data-name="Group 622" transform="translate(0 0)">
+      <g id="Group_594" data-name="Group 594">
+        <g id="Group_588" data-name="Group 588" transform="translate(5.301 0)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="31.207" cy="31.207" r="31.207" transform="translate(0 0)" fill="#fff"/>
+        </g>
+        <path id="Path_638" data-name="Path 638" d="M36.791,38.79,7.592,19.422A8.556,8.556,0,0,0,0,14.93C.45,14.545,9.562,0,9.562,0l11.7,24.209Z" transform="translate(0 23.623)" fill="#fff"/>
+        <path id="Path_639" data-name="Path 639" d="M0,38.79,29.2,19.422a8.556,8.556,0,0,1,7.592-4.492C36.34,14.545,27.229,0,27.229,0l-11.7,24.209Z" transform="translate(36.791 23.623)" fill="#fff"/>
+      </g>
+      <path id="Path_649" data-name="Path 649" d="M5.008,15.227,0,22.628,2.866,0Z" transform="translate(60.978 27.934)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_816" data-name="Group 816" transform="translate(17.87 10.402)">
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="19.204" cy="18.937" rx="19.204" ry="18.937" transform="translate(37.875 0) rotate(90)" fill="#cbe9e3"/>
+    <path id="Icon_material-phone-iphone" data-name="Icon material-phone-iphone" d="M16.983,1.5H9.758A2.259,2.259,0,0,0,7.5,3.758V19.111a2.259,2.259,0,0,0,2.258,2.258h7.225a2.259,2.259,0,0,0,2.258-2.258V3.758A2.259,2.259,0,0,0,16.983,1.5ZM13.37,20.466a1.355,1.355,0,1,1,1.355-1.355A1.353,1.353,0,0,1,13.37,20.466Zm4.064-3.612H9.306V4.209h8.128Z" transform="translate(5.683 8.103)" fill="#071a31"/>
+  </g>
+</svg>

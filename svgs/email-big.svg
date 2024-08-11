@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121.01" height="102.64" viewBox="0 0 73.582 62.413">
+  <g id="Group_596" data-name="Group 596" transform="translate(73.582 62.413) rotate(-180)">
+    <g id="Group_622" data-name="Group 622" transform="translate(0 0)">
+      <g id="Group_594" data-name="Group 594" transform="translate(0)">
+        <g id="Group_588" data-name="Group 588" transform="translate(5.301 0)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="31.207" cy="31.207" r="31.207" transform="translate(0 0)" fill="#fff"/>
+        </g>
+        <path id="Path_638" data-name="Path 638" d="M36.791,38.79,7.592,19.422A8.556,8.556,0,0,0,0,14.93C.45,14.545,9.562,0,9.562,0l11.7,24.209Z" transform="translate(0 23.623)" fill="#fff"/>
+        <path id="Path_639" data-name="Path 639" d="M0,38.79,29.2,19.422a8.556,8.556,0,0,1,7.592-4.492C36.34,14.545,27.229,0,27.229,0l-11.7,24.209Z" transform="translate(36.791 23.623)" fill="#fff"/>
+      </g>
+      <path id="Path_649" data-name="Path 649" d="M5.008,15.227,0,22.628,2.866,0Z" transform="translate(60.978 27.934)" fill="#fff"/>
+    </g>
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="19.204" cy="18.937" rx="19.204" ry="18.937" transform="translate(17.837 52.011) rotate(-90)" fill="#cbe9e3"/>
+  </g>
+  <path id="Icon_material-email" data-name="Icon material-email" d="M17.914,6H4.657A1.655,1.655,0,0,0,3.008,7.657L3,17.6a1.662,1.662,0,0,0,1.657,1.657H17.914A1.662,1.662,0,0,0,19.572,17.6V7.657A1.662,1.662,0,0,0,17.914,6Zm0,3.314-6.629,4.143L4.657,9.314V7.657L11.286,11.8l6.629-4.143Z" transform="translate(25.906 17.602)" fill="#071a31"/>
+</svg>

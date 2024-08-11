@@ -104,7 +104,7 @@
 
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone:hover::after,
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone:focus::after { 
-    content: url("/tmu/svgs/email.svg");
+    content: url("/tmu/svgs/phone-hover.svg");
 }
 
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-email { 
@@ -115,7 +115,7 @@
 }
 
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-email::after {
-    content: url("/tmu/svgs/");
+    content: url("/tmu/svgs/email.svg");
     display: block;
     height: 52px;
     position: relative;
@@ -124,7 +124,7 @@
 
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-email:hover::after,
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-email:focus::after {
-    content: url("/tmu/svgs/bg-arrow-big.svg");
+    content: url("/tmu/svgs/email-hover.svg");
 }
 
 .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone:focus::after,
@@ -193,7 +193,7 @@
         left: -350px;
         top: -260px;
         position: absolute;
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/bg-arrow-medium.svg");
     }
     
     .au-team-wrapper::after {
@@ -249,7 +249,7 @@
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone::after {
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/phone-big.svg");
         display: block;
         height: 103px;
         position: relative;
@@ -258,7 +258,7 @@
 
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone:hover::after,
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-phone:focus::after {
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/phone-big-hover.svg");
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-email { 
@@ -269,7 +269,7 @@
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-email::after {
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/email-big.svg");
         display: block;
         height: 103px;
         position: relative;
@@ -278,7 +278,7 @@
 
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-email:hover::after,
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-email:focus::after {
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/email-big-hover.svg");
     }
     
     .au-team-wrapper .au-team-members .au-team-member .au-team-member-name { 
@@ -423,7 +423,7 @@
         left: -270px;
         top: -180px;
         position: absolute;
-        content: url("/tmu/svgs/bg-arrow-big.svg");
+        content: url("/tmu/svgs/bg-arrow-large.svg");
     }
     
     .au-team-wrapper::after {
