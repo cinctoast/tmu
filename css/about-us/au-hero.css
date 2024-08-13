@@ -105,7 +105,7 @@
 
     .au-hero-wrapper::after {
         margin-left: 0;
-        width: calc(100% + 600px);
+        width: 100%;
         margin-top: -190px;
         content: url("/tmu/svgs/au-hero-colour-bg-large.svg");
     }
@@ -150,7 +150,7 @@
 
     .au-hero-wrapper::after {
         margin-left: 0;
-        width: calc(100% + 600px);
+        width: 100%;
         margin-top: -190px;
         content: url("/tmu/svgs/au-hero-colour-bg-large.svg");
     }
