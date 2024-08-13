@@ -194,6 +194,8 @@
         top: -260px;
         position: absolute;
         content: url("/tmu/svgs/bg-arrow-medium.svg");
+        overflow: hidden;
+        width: calc(100% + 425px);
     }
     
     .au-team-wrapper::after {
@@ -424,6 +426,7 @@
         top: -180px;
         position: absolute;
         content: url("/tmu/svgs/bg-arrow-large.svg");
+        width: 100%;
     }
     
     .au-team-wrapper::after {

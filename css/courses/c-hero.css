@@ -6,9 +6,9 @@
 
 .c-hero-wrapper::after {
     border-radius: 0 0 50px 50px;
-    content: url("/tmu/svgs/bg-arrow-big.svg");
+    content: url("/tmu/svgs/c-hero-bg.svg");
     height: -webkit-fill-available;
-    left: -1px;
+    left: -1.3px;
     opacity: 0.9;
     overflow: hidden;
     position: absolute;
@@ -98,11 +98,10 @@
 @media (min-width: 650px) {
 
     .c-hero-wrapper { 
-        padding: 80px 75px 120px 75px;
+        padding: 75px;
     }
     
     .c-hero-wrapper::after {
-        content: url("/tmu/svgs/bg-arrow-big.svg");
         right: 0;
         top: -170px;
     }
@@ -124,7 +123,7 @@
     
     .c-hero-wrapper .c-hero-main .c-hero-search-wrapper { 
         display: flex;
-        margin-top: 62px;
+        margin-top: 40px;
         font-size: 18px;
         line-height: 23px;
     }

@@ -15,6 +15,8 @@
     top: -112px;
     z-index: -2;
     width: calc(100% + 170px);
+    overflow: hidden;
+    left: -140px;
 }
 
 .c-cards-wrapper .c-card {
@@ -86,22 +88,22 @@
 }
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-date::before {
-    content: url("/tmu/svgs/bg-arrow-big.svg");
+    content: url("/tmu/svgs/calendar.svg");
     margin-right: 16px;
     margin-left: 1px;
 }
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-time { 
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-time::before {
-    content: url("/tmu/svgs/bg-arrow-big.svg");
+    content: url("/tmu/svgs/clock.svg");
     margin-right: 15px;
 }
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-place::before {
-    content: url("/tmu/svgs/bg-arrow-big.svg");
+    content: url("/tmu/svgs/place.svg");
     margin-right: 15px;
 }
 
@@ -121,10 +123,10 @@
     .c-cards-wrapper::after {
         bottom: -430px;
         content: url("/tmu/svgs/bg-arrow-medium.svg");
-        right: 0;
+        left: -400px;
         overflow: hidden;
         position: absolute;
-        width: calc(100% + 200px);
+        width: calc(100% + 475px);
         z-index: -2;
     }
     
@@ -157,7 +159,7 @@
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time { 
-        margin: 30px 0;
+        margin: 15px 0;
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time::before {
@@ -185,13 +187,16 @@
     .c-cards-wrapper::before {
         display: block;
         top: -190px;
-        right: -570px;
+        right: -640px;
         content: url("/tmu/svgs/bg-arrow-big.svg");
+        left: auto;
     }
 
     .c-cards-wrapper::after {
         bottom: -290px;
-        right: 110px;
+        left: -1070px;
+        right: auto;
+        width: calc(100% + 650px);
     }
     
     .c-cards-wrapper .c-card .c-card-image { 

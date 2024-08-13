@@ -104,7 +104,7 @@
 @media (min-width: 1100px) {
 
     .au-hero-wrapper::after {
-        margin-left: -600px;
+        margin-left: 0;
         width: calc(100% + 600px);
         margin-top: -190px;
         content: url("/tmu/svgs/au-hero-colour-bg-large.svg");
@@ -149,7 +149,7 @@
 @media (min-width: 1441px) {
 
     .au-hero-wrapper::after {
-        margin-left: -600px;
+        margin-left: 0;
         width: calc(100% + 600px);
         margin-top: -190px;
         content: url("/tmu/svgs/au-hero-colour-bg-large.svg");
@@ -171,12 +171,12 @@
         margin-left: 389px;
     }
 
-    .au-hero-wrapper .au-hero-content::after {
+    /* .au-hero-wrapper .au-hero-content::after {
         content: url("/tmu/svgs/bg-arrow-big.svg");
         top: -65px;
         width: calc(100% - 940px);
         margin-left: 815px;
-    }
+    } */
     
     .au-hero-wrapper .au-hero-content .au-hero-text {
         padding-bottom: 30px;

@@ -119,6 +119,10 @@
     height: 45px;
     width: 45px;
     margin-bottom: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    transition: background-color 0.3s ease;
 }
 
 .header-wrapper .header-menus .header-login {
@@ -150,6 +154,11 @@
     content: url("../svgs/cart-hover.svg");
 }
 
+.header-wrapper .header-menus .header-cart-btn:hover,
+.header-wrapper .header-menus .header-cart-btn:focus { 
+    background-color: var(--white);
+}
+
 .header-wrapper .header-menus .header-cart-btn:focus::after {
     outline: 2px dotted var(--white);
     outline-offset: 4px;
@@ -161,6 +170,9 @@
     display: block;
     transition: content 0.3s;
     content: url("../svgs/cart.svg");
+    top: 13px;
+    position: relative;
+    left: 11px;
 }
 
 .header-wrapper .header-menus .header-primary-menu .primary-menu-item { 
@@ -277,11 +289,17 @@
         margin-left: 15px;
         display: flex;
         content: url("../svgs/cart-laptop.svg");
+        border-radius: 50%;
+        height: 43px;
+        width: 43px;
+        background-color: var(--blue);
+        transition: background-color 0.3s ease;
     }
 
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .cart-button-laptop:hover,
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .cart-button-laptop:focus {
         content: url("../svgs/cart-laptop-hover.svg");
+        background-color: var(--white);
     }
 
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .cart-button-laptop:focus {
@@ -293,11 +311,15 @@
         margin-left: 12px;
         display: flex;
         content: url("../svgs/search.svg");
+        background-color: var(--blue);
+        transition: background-color 0.3s ease;
+        border-radius: 50%;
     }
 
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .search-button-laptop:hover,
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .search-button-laptop:focus {
         content: url("../svgs/search-hover.svg");
+        background-color: var(--white);
     }
 
     .header-wrapper .header-menus-laptop .header-secondary-menu-laptop .search-button-laptop:focus {
