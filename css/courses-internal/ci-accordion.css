@@ -392,6 +392,7 @@
     .ci-accordion-wrapper .ci-accordion-modules-wrapper .panel .ci-module-wrapper { 
         margin: 75px 75px 0 75px;
         padding: 75px;
+        background-color: var(--sky);
     
         &:last-of-type {
             margin: 75px;
