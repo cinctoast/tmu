@@ -341,22 +341,34 @@
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts { 
-        left: calc(20% - 24.7px);
+        left: calc(20% - 40.9px);
         bottom: 20px;
         top: auto;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone { 
-        height: 68px;
-        width: 68px;
-        content: url("/tmu/svgs/ci-phone-tablet.svg");
+        height: 100px;
+        width: 109px;
+        content: url("/tmu/svgs/ci-phone-laptop.svg");
+    }
+
+    .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone:hover,
+    .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone:focus { 
+        content: url("/tmu/svgs/ci-phone-hover.svg");
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-email { 
-        content: url("/tmu/svgs/ci-email-tablet.svg");
-        height: 68px;
-        width: 68px;
+        content: url("/tmu/svgs/ci-email-laptop.svg");
+        height: 109px;
+        width: 100px;
         transform: rotateZ(270deg);
+        right: -4.6px;
+        top: -5px;
+    }
+
+    .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-email:hover,
+    .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-email:focus { 
+        content: url("/tmu/svgs/ci-email-hover.svg");
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-name { 
@@ -444,21 +456,23 @@
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts { 
-        left: calc(30% - 24.7px);
+        left: calc(30% - 66.5px);
         bottom: 20px;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone { 
-        height: 68px;
-        width: 68px;
-        content: url("/tmu/svgs/ci-phone-tablet.svg");
+        height: 155px;
+        width: 175px;
+        content: url("/tmu/svgs/ci-phone-desktop.svg");
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-email { 
-        content: url("/tmu/svgs/ci-email-tablet.svg");
-        height: 68px;
-        width: 68px;
+        content: url("/tmu/svgs/ci-email-desktop.svg");
+        height: 175px;
+        width: 155px;
         transform: rotateZ(270deg);
+        right: -10.3px;
+        top: -9.8px;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-name { 

@@ -68,27 +68,30 @@
     line-height: 26px;
     background-color: var(--light-mint);
     border-radius: 0 30px 0 30px;
+    grid-row-gap: 20px;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date { 
-    margin-bottom: 20px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date::before {
     content: url("/tmu/svgs/calendar-medium.svg");
     position: relative;
-    top: 4px;
     margin-right: 20px;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time { 
-    margin-bottom: 20px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time::before {
     content: url("/tmu/svgs/clock-medium.svg");
     position: relative;
-    top: 5px;
     margin-right: 20px;
     width: 18px;
     height: 20px;
@@ -100,24 +103,26 @@
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place { 
-    margin-bottom: 20px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place::before {
     content: url("/tmu/svgs/place-medium.svg");
     position: relative;
-    top: 6px;
     margin-right: 20px;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-taxonomy { 
-
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-taxonomy::before {
     content: url("/tmu/svgs/medal.svg");
     position: relative;
-    top: 9px;
     margin-right: 20px;
 }
 
@@ -195,38 +200,22 @@
         margin: 0 50px;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date { 
-        margin-bottom: 20px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date::before {
-        top: 4px;
         margin-right: 20px;
         zoom: 1.1;
-    }
-    
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time { 
-        margin-bottom: 20px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time::before {
-        top: 5px;
         margin-right: 20px;
         zoom: 1.1;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place { 
-        margin-bottom: 20px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place::before {
-        top: 6px;
         margin-right: 20px;
         zoom: 1.1;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-taxonomy::before { 
-        top: 9px;
         margin-right: 20px;
         zoom: 1.1;
     }
@@ -278,38 +267,22 @@
         right: -100px;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date { 
-        margin-bottom: 20px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date::before {
-        top: 4px;
         margin-right: 20px;
         zoom: 1.1;
-    }
-    
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time { 
-        margin-bottom: 20px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time::before {
-        top: 5px;
         margin-right: 20px;
         zoom: 1.1;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place { 
-        margin-bottom: 20px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place::before {
-        top: 6px;
         margin-right: 20px;
         zoom: 1.1;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-taxonomy::before { 
-        top: 9px;
         margin-right: 20px;
         zoom: 1.1;
     }
@@ -347,40 +320,25 @@
         line-height: 30px;
         top: 125px;
         right: -200px;
-    }
-    
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date { 
-        margin-bottom: 25px;
+        grid-row-gap: 25px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-date::before {
-        top: 4px;
         margin-right: 25px;
         zoom: 1.2;
-    }
-    
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time { 
-        margin-bottom: 25px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-time::before {
-        top: 5px;
         margin-right: 25px;
         zoom: 1.2;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place { 
-        margin-bottom: 25px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-place::before {
-        top: 6px;
         margin-right: 25px;
         zoom: 1.2;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-info .ci-hero-info-taxonomy::before { 
-        top: 9px;
         margin-right: 25px;
         zoom: 1.2;
     }
