@@ -6,3 +6,12 @@ document.querySelectorAll('.au-team-member-full').forEach((btn, index) => {
         btn.style.display = 'none';
     });
 });
+
+document.querySelectorAll('.ci-chair-full').forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        var textDiv = document.querySelectorAll('.ci-chair-text')[index];
+        textDiv.style.height = 'auto';
+        textDiv.style.paddingBottom = '15px';
+        btn.style.display = 'none';
+    });
+});

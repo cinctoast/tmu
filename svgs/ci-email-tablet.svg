@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.19" height="60.337" viewBox="0 0 68.19 60.337">
+  <g id="Group_708" data-name="Group 708">
+    <g id="Group_594" data-name="Group 594">
+      <g id="Group_650" data-name="Group 650">
+        <g id="Group_588" data-name="Group 588" transform="translate(4.043)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="30.169" cy="30.169" r="30.169" fill="#e5f4f1"/>
+        </g>
+        <path id="Path_639" data-name="Path 639" d="M13.216,4.628a8.272,8.272,0,0,0,7.34,4.343c-.435.372-9.244,14.433-9.244,14.433L0,0Z" transform="translate(47.635 11.602)" fill="#e5f4f1"/>
+        <path id="Path_665" data-name="Path 665" d="M7.34,4.628A8.271,8.271,0,0,1,0,8.971C.435,9.343,9.244,23.4,9.244,23.4L20.556,0Z" transform="translate(0 11.602)" fill="#e5f4f1"/>
+      </g>
+    </g>
+    <g id="Group_649" data-name="Group 649" transform="translate(16.11 10.162)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="18.419" cy="18.419" r="18.419" fill="#1c2e5f"/>
+    </g>
+  </g>
+  <path id="Icon_material-email" data-name="Icon material-email" d="M15.578,0H1.731A1.729,1.729,0,0,0,.009,1.731L0,12.116a1.736,1.736,0,0,0,1.731,1.731H15.578a1.736,1.736,0,0,0,1.731-1.731V1.731A1.736,1.736,0,0,0,15.578,0Zm0,3.462L8.654,7.789,1.731,3.462V1.731L8.654,6.058l6.924-4.327Z" transform="translate(41.021 19.877) rotate(90)" fill="#fff"/>
+</svg>

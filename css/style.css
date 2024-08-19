@@ -32,8 +32,10 @@ strong {
     --white: #FFFFFF;
     --black: #000000;
     --yellow: #FEDC00;
-    --light-green: rgba(108, 191, 174, 0.2);
+    --sky: #EDF7F5;
+    --light-mint: #E5F4F1;
     --mint: #CBE9E3;
+    --light-green: rgba(108, 191, 174, 0.2);
     --green: #6CBFAE;
     --pale-blue: rgba(35, 53, 110, 0.05);
     --light-blue: #084E99;
