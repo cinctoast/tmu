@@ -52,7 +52,7 @@
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-title { 
-    padding: 25px;
+    padding: 25px 25px 12px 25px;
     font-size: 27px;
     font-weight: var(--semibold);
     line-height: 40px;
@@ -66,7 +66,7 @@
     font-size: 16px;
     font-weight: var(--regular);
     line-height: 26px;
-    background-color: var(--mint);
+    background-color: var(--light-mint);
     border-radius: 0 30px 0 30px;
 }
 
@@ -131,7 +131,7 @@
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-description .ci-hero-text { 
     font-weight: var(--bold);
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-description .ci-hero-subtext { 
@@ -142,15 +142,15 @@
     margin: 20px auto 50px auto;
     background-color: var(--white);
     color: var(--blue);
-    border-color: var(--green);
+    border-color: var(--blue);
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn:hover,
 .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn:focus { 
     background-color: var(--white);
     color: var(--blue);
-    border-color: var(--green);
-    outline-color: var(--green);
+    border-color: var(--blue);
+    outline-color: var(--blue);
 }
 
 .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn:focus {
@@ -181,7 +181,7 @@
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-title { 
-        padding: 50px;
+        padding: 50px 50px 25px 50px;
         font-size: 37px;
         line-height: 49px;
     }
@@ -239,7 +239,7 @@
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-description .ci-hero-text { 
-        margin-bottom: 35px;
+        margin-bottom: 17px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn { 
@@ -250,7 +250,7 @@
 @media (min-width: 1100px) {
 
     .ci-hero-wrapper .ci-hero-title-background { 
-        height: 400px;
+        height: 500px;
     }
     
     .ci-hero-wrapper .ci-hero-register-btn-wrapper { 
@@ -263,7 +263,7 @@
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-title { 
-        padding: 75px 270px 60px 75px;
+        padding: 75px 270px 30px 75px;
         font-size: 46px;
         line-height: 60px;
     }
@@ -320,10 +320,6 @@
         line-height: 30px;
     }
     
-    .ci-hero-wrapper .ci-hero-content .ci-hero-description .ci-hero-text { 
-        margin-bottom: 35px;
-    }
-    
     .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn { 
         margin: 0 auto 75px 75px;
     }
@@ -331,10 +327,6 @@
 
 @media (min-width: 1441px) {
 
-    .ci-hero-wrapper .ci-hero-title-background { 
-        height: 460px;
-    }
-    
     .ci-hero-wrapper .ci-hero-register-btn-wrapper { 
         margin: 105px auto 0 150px;
     }
@@ -344,7 +336,7 @@
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-title { 
-        padding: 65px 400px 50px 75px;
+        padding: 65px 400px 25px 75px;
         font-size: 54px;
         line-height: 65px;
     }
@@ -398,7 +390,7 @@
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-description .ci-hero-text { 
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .ci-hero-wrapper .ci-hero-content .ci-hero-brochure-btn { 

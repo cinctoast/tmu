@@ -118,7 +118,7 @@
 }
 
 .ci-accordion-wrapper .ci-accordion-speakers-wrapper .panel .ci-speakers-text { 
-    margin: 15px 25px 30px 25px;
+    margin: 30px 25px;
     color: var(--white);
     font-size: 16px;
     line-height: 26px;
@@ -149,7 +149,7 @@
     font-size: 16px;
     line-height: 25px;
     color: var(--blue);
-    margin-bottom: 17px;
+    margin-bottom: 8px;
 }
 
 .ci-accordion-wrapper .ci-accordion-modules-wrapper .panel .ci-module-wrapper .ci-modules-text { 
@@ -164,9 +164,11 @@
     border: none;
     color: var(--white);
     cursor: pointer;
+    display: flex;
     font-family: "Lexend", sans-serif;
     font-size: 25px;
     font-weight: var(--semibold);
+    justify-content: space-between;
     line-height: 40px;
     outline: none;
     padding: 32px;
@@ -175,10 +177,20 @@
     width: 100%;
 }
 
+.accordion:hover,
+.accordion:focus {
+    text-decoration: underline;
+}
+
+.accordion:focus {
+    outline: 3px dotted var(--blue);
+    outline-offset: 8px;
+}
+
 .accordion:after {
     content: url("data:image/svg+xml,%3Csvg id='Group_1249' data-name='Group 1249' xmlns='http://www.w3.org/2000/svg' width='47.829' height='47.829' viewBox='0 0 47.829 47.829'%3E%3Cg id='Group_731' data-name='Group 731'%3E%3Cg id='Group_651' data-name='Group 651' transform='translate(47.829) rotate(90)'%3E%3Cg id='Group_649' data-name='Group 649' transform='translate(0 0)'%3E%3Cpath id='Icon_awesome-plus-circle' data-name='Icon awesome-plus-circle' d='M23.915,0A23.914,23.914,0,1,0,47.829,23.914,23.91,23.91,0,0,0,23.915,0ZM37.8,26.614a1.161,1.161,0,0,1-1.157,1.157H27.772v8.871A1.161,1.161,0,0,1,26.615,37.8h-5.4a1.161,1.161,0,0,1-1.157-1.157V27.772H11.186a1.161,1.161,0,0,1-1.157-1.157v-5.4a1.161,1.161,0,0,1,1.157-1.157h8.872V11.186a1.161,1.161,0,0,1,1.157-1.157h5.4a1.161,1.161,0,0,1,1.157,1.157v8.871h8.872A1.161,1.161,0,0,1,37.8,21.214Z' fill='%23cbe9e3'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
     float: right;
-    margin-left: 15px;
+    margin-left: 30px;
     height: 47px;
     width: 47px;
 }
@@ -212,6 +224,7 @@
 
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-img { 
         width: 30%;
+        max-height: 315px;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts { 
@@ -219,7 +232,7 @@
         margin-left: auto;
         position: absolute;
         left: calc(30% - 24.7px);
-        bottom: 20px;
+        top: 155px;
         display: flex;
         flex-direction: column;
     }
@@ -267,7 +280,7 @@
     }
     
     .ci-accordion-wrapper .ci-accordion-speakers-wrapper .panel .ci-speakers-text { 
-        margin: 15px 50px 50px 50px;
+        margin: 50px;
         font-size: 18px;
         line-height: 30px;
     
@@ -294,7 +307,7 @@
     .ci-accordion-wrapper .ci-accordion-modules-wrapper .panel .ci-module-wrapper .ci-modules-title { 
         font-size: 18px;
         line-height: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     
     .ci-accordion-wrapper .ci-accordion-modules-wrapper .panel .ci-module-wrapper .ci-modules-text { 
@@ -324,11 +337,13 @@
 
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-img { 
         width: 20%;
+        max-height: fit-content;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts { 
         left: calc(20% - 24.7px);
         bottom: 20px;
+        top: auto;
     }
     
     .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone { 
@@ -354,7 +369,7 @@
         margin: 0 70px 70px 65px;
         font-size: 16px;
         line-height: 26px;
-        height: 340px;
+        height: 162px;
         overflow: auto;
         padding-right: 40px;
     }
@@ -378,7 +393,7 @@
     }
     
     .ci-accordion-wrapper .ci-accordion-speakers-wrapper .panel .ci-speakers-text { 
-        margin: 15px 50px 25px 50px;
+        margin: 50px 50px 25px 50px;
         font-size: 16px;
         line-height: 30px;
         display: grid;
@@ -456,7 +471,7 @@
         margin: 0 110px 100px 100px;
         font-size: 18px;
         line-height: 26px;
-        height: 373px;
+        height: 157px;
         padding-right: 110px;
     }
     
@@ -465,7 +480,7 @@
     }
 
     .ci-accordion-wrapper .ci-accordion-speakers-wrapper .panel .ci-speakers-text { 
-        margin: 25px 50px 15px 50px;
+        margin: 50px 50px 15px 50px;
         font-size: 18px;
         line-height: 30px;
     
