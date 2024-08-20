@@ -4,6 +4,7 @@
     padding: 140px 30px 70px 30px;
     position: relative;
     top: -100px;
+    border-radius: 0 0 50px 50px;
 }
 
 .c-hero-wrapper::after {
