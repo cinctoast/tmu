@@ -86,7 +86,9 @@
         padding: 75px;
         font-size: 18px;
         line-height: 28px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .ci-info-wrapper .ci-info-cta { 

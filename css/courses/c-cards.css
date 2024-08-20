@@ -95,6 +95,13 @@
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-time { 
     margin: 10px 0;
+    display: flex;
+}
+
+.c-cards-wrapper .c-card .c-card-info .c-card-info-date,
+.c-cards-wrapper .c-card .c-card-info .c-card-info-time,
+.c-cards-wrapper .c-card .c-card-info .c-card-info-place { 
+    display: flex;
 }
 
 .c-cards-wrapper .c-card .c-card-info .c-card-info-time::before {
@@ -155,7 +162,6 @@
         margin-left: 1px;
         margin-right: 21px;
         position: relative;
-        top: 5px;
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time { 
@@ -165,13 +171,12 @@
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time::before {
         margin-right: 20px;
         position: relative;
-        top: 6px;
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-place::before {
         margin-right: 20px;
         position: relative;
-        top: 8px;
+        top: 3px;
     }
 }
 
@@ -224,7 +229,6 @@
         margin-left: 0;
         margin-right: 15px;
         position: relative;
-        top: 3px;
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time { 
@@ -234,13 +238,13 @@
     .c-cards-wrapper .c-card .c-card-info .c-card-info-time::before {
         margin-right: 15px;
         position: relative;
-        top: 3px;
+        top: 1px;
     }
     
     .c-cards-wrapper .c-card .c-card-info .c-card-info-place::before {
         margin-right: 15px;
         position: relative;
-        top: 4px;
+        top: 2px;
     }
 }
 

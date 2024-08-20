@@ -408,7 +408,9 @@
         margin: 50px 50px 25px 50px;
         font-size: 16px;
         line-height: 30px;
-        display: grid;
+        display: flex;
+        grid-column-gap: 40px;
+        flex-direction: column;
         grid-template-columns: 1fr 1fr;
     
         & p {
