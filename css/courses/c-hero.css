@@ -107,7 +107,7 @@
     .c-hero-wrapper::after {
         right: 0;
         top: 0;
-        content: url("/tmu/svgs/c-hero-bg-m.svg");
+        content: url("/tmu/svgs/c-hero-bg-l.svg");
     }
     
     .c-hero-wrapper .c-hero-main .c-hero-title { 

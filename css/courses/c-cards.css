@@ -3,12 +3,11 @@
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin: 30px;
+    margin: -70px 30px 30px 30px;
     position: relative;
 }
 
 .c-cards-wrapper::before {
-    content: url("/tmu/svgs/bg-arrow-small.svg");
     right: -170px;
     overflow: hidden;
     position: absolute;
@@ -120,7 +119,7 @@
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 50px;
         grid-row-gap: 50px;
-        margin: 75px;
+        margin: -95px 75px 75px 75px;
     }
 
     .c-cards-wrapper::before {
@@ -186,15 +185,17 @@
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 40px;
         grid-row-gap: 40px;
-        margin: 100px 150px;
+        margin: -90px 150px 100px 150px;
     }
 
     .c-cards-wrapper::before {
         display: block;
         top: -190px;
-        right: -640px;
+        right: -150px;
         content: url("/tmu/svgs/bg-arrow-big.svg");
         left: auto;
+        overflow: hidden;
+        width: calc(100% - 70px);
     }
 
     .c-cards-wrapper::after {
@@ -259,8 +260,9 @@
     .c-cards-wrapper::before {
         display: block;
         top: -335px;
-        right: -905px;
+        right: -150px;
         content: url("/tmu/svgs/bg-arrow-large.svg");
+        width: calc(100% - 640px);
     }
 
     .c-cards-wrapper::after {
