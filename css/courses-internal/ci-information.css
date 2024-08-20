@@ -25,6 +25,10 @@
     text-decoration: none;
 }
 
+.ci-info-wrapper .ci-info-contact a:focus {
+    outline: 3px dotted var(--white);
+}
+
 .ci-info-wrapper .ci-info-cta { 
     border-radius: 50px 50px 0 50px ;
     display: flex;

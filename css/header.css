@@ -134,7 +134,6 @@
     border: 1px solid var(--white);
     color: var(--white);
     background-color: transparent;
-    outline: none;
 }
 
 .header-wrapper .header-menus .header-login:hover::after,

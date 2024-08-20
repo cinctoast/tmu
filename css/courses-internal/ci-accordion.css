@@ -43,6 +43,12 @@
     content: url("/tmu/svgs/ci-phone.svg");
 }
 
+.ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone:focus,
+.ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-email:focus { 
+    outline: 2px dotted;
+    outline-offset: -10px;
+}
+
 .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-phone-contacts .ci-chair-phone .ci-chair-phone-hover { 
     display: none;
 }
@@ -109,6 +115,10 @@
 .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-full:hover,
 .ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-full:focus { 
     text-decoration: none;
+}
+
+.ci-accordion-wrapper .ci-accordion-chairs-wrapper .panel .ci-chairs .ci-chair .ci-chair-full:focus { 
+    outline: 2px dotted var(--black);
 }
 
 .ci-accordion-wrapper .ci-accordion-speakers-wrapper { 
@@ -195,7 +205,7 @@
     width: 47px;
 }
 
-.active:after {
+.active-acc:after {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='47.829' height='47.829' viewBox='0 0 47.829 47.829'%3E%3Cg id='Group_732' data-name='Group 732' transform='translate(0 0)'%3E%3Cg id='Group_731' data-name='Group 731' transform='translate(0 0)'%3E%3Cg id='Group_651' data-name='Group 651' transform='translate(47.829) rotate(90)'%3E%3Cg id='Group_649' data-name='Group 649'%3E%3Cpath id='Icon_awesome-plus-circle' data-name='Icon awesome-plus-circle' d='M23.915,0A23.914,23.914,0,1,0,47.829,23.914,23.91,23.91,0,0,0,23.915,0Zm3.857,24.462c0,.636,9.508,0,0,0V36.643A1.161,1.161,0,0,1,26.615,37.8h-5.4a1.161,1.161,0,0,1-1.157-1.157c.011-3.779.061-15.136,0-25.457a1.161,1.161,0,0,1,1.157-1.157h5.4a1.161,1.161,0,0,1,1.157,1.157V24.462C37.28,24.462,37.8,20.578,27.772,24.462Z' fill='%23cbe9e3'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
 }
 

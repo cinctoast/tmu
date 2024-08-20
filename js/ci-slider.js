@@ -17,3 +17,15 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " white-bg";
 }
+
+var dots = document.getElementsByClassName("ci-audience-name-tablet");
+
+for (let i = 0; i < dots.length; i++) {
+  dots[i].setAttribute("tabindex", "0"); // make dots focusable
+
+  dots[i].addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      currentDiv(i + 1); // move to the corresponding slide
+    }
+  });
+}
